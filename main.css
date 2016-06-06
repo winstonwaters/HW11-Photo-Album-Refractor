@@ -1,0 +1,112 @@
+/*HEADER AND BODY STYLES*/
+* {
+  font-family: Gotham;
+  text-decoration: none;
+  list-style: none;
+  color: #3E5D6C;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E5F1F8;
+}
+.container {
+  clear: both;
+  width: 98%;
+  margin: 0 auto;
+}
+.header {
+  display: block;
+  width: 100%
+}
+h2 {
+  font-size: 3em;
+  font-weight: 250;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+button {
+  display: none;
+  border: 3px solid #d9edf7;
+  background: white;
+  border-radius: 10%;
+}
+
+/*ASIDE*/
+.aside {
+  font-size: 2em;
+  padding: 2%;
+  background-color: #3E5D6C;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  opacity: 0.9;
+  vertical-align: top;
+}
+
+.aside li {
+  font-weight: 200;
+  font-size: 1em;
+  color: #E5F1F8;
+}
+.aside li:active {
+  font-weight: 400;
+}
+.aside li:hover {
+  font-weight: 400;
+}
+
+/*albums*/
+.albums {
+  display: inline-block;
+  width: 63%;
+}
+
+.album {
+  margin-left: 6%;
+  margin-right: 3%;
+  display: inline-block;
+}
+.album h3 {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+  }
+
+
+/*album details*/
+.albumDetail .photo{
+  display: inline-block;
+}
+.albumDetail img{
+  width: 400px;
+  margin: 1.5%;
+  margin-right: : 1.5%;
+  transition: all .5s ease;
+  display: inline-block;
+}
+.albumDetail img:hover{
+  transform: scale(2);
+}
+.albums img{
+  display: inline-flex;
+  vertical-align: top;
+  width: 300px
+}
+/*photozoom class styling*/
+.photoZoom {
+
+  padding-left: 23%;
+  padding-right: 23%;
+}
+.photoZoom img {
+  justify-content: center;
+  width: 100%;
+}
+
+.hidden {
+  display: none; !important
+}
